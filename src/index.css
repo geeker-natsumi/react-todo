@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0 16px 16px 16px;
+  font-family: sans-serif;
+}
+
+h1{
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  padding: 8px;
+  list-style-type:none;
+  background:#eee;
+  border-radius: 8px;
+  margin: 0 0 16px 0;
+  cursor: pointer;
+}
+
+input[type="text"]{
+  width: 100%;
+  padding: 8px 4px;
+}
+
+.button--add{
+  display: block;
+  width: 70%;
+  text-align: center;
+  margin: 8px auto;
+  padding: 4px 16px;
+  background: #00CCFF;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
